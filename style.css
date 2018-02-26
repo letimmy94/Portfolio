@@ -1,41 +1,53 @@
 body {
-    background-color: blanchedalmond;
+    background-color: slategrey;
+
 }
 
-h1 {
-    color: #444444;
-    font-size: 50pt;
+header {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: lemonchiffon;
+    text-shadow: 3px 2px #000000;
     text-align: center;
+    padding: 3px;
 }
 
-ul {
-    display: inline-block;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #444444;
+.parent {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
-li {
-    float: left;
+.child {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    margin: 0 34.2px 0;
+    border: solid;
+    border-color: lemonchiffon;
+    border-radius: 8px;
+    opacity: .80;
 }
 
-li a {
-    display: inline-block;
-    color: white;
-    padding: 20px 20px;
+.child:hover {
+    background-color: lightcoral;
+}
+
+#brand {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border: groove;
+    border-color: lemonchiffon;
+    border-radius: 11px;
+    width: 600px;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    color: lemonchiffon;
+    letter-spacing: 2px;
     text-align: center;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: lightseagreen;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1%;
 }
