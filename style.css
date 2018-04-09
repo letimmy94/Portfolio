@@ -85,7 +85,7 @@ header {
 }
 
 a {
-  color: black;
+  color: lemonchiffon;
   text-decoration: none;
 }
 
@@ -145,4 +145,12 @@ footer {
 
 .navLinks {
   color: black;
+}
+
+.prolinks {
+  color: lemonchiffon;
+  border: groove;
+  width: 100px;
+  margin: auto;
+  padding: 8px;
 }
