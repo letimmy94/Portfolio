@@ -160,5 +160,12 @@ img {
   justify-content: center;
   margin: auto;
   width: 25%;
+}
+
+.me {
+  display: block;
+  justify-content: center;
+  margin: auto;
+  width: 25%;
   border-radius: 50%;
 }
