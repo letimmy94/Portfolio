@@ -157,7 +157,8 @@ footer {
 
 img {
   display: block;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 25%;
 }
