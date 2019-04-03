@@ -70,7 +70,7 @@ header {
 .child {
   font-family: 'Abel', sans-serif;
   font-size: 20px;
-  width: 120px;
+  width: 95px;
   height: 40px;
   margin: 0 20px 0;
   border-radius: 8px;
@@ -156,16 +156,28 @@ footer {
 }
 
 img {
-  display: block;
+  display: flex;
   justify-content: center;
   margin: auto;
-  width: 25%;
 }
 
 .me {
-  display: block;
+  display: flex;
   justify-content: center;
   margin: auto;
-  width: 25%;
+  height: 5%;
+  width: 30%;
   border-radius: 50%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem -1rem;
+}
+
+.designs {
+  margin: 2rem;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+  overflow: hidden;
 }
